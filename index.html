@@ -87,9 +87,7 @@
 
                     // URL
                     $("<td width='20%'>" + 
-                      "<a href= " +info[
-                            i]
-                        .url_diff + "' target='_blank'>" + info[i].url_diff + "</a></td>").appendTo(str);
+                      "<a download href= " +info[i].url_diff + ">" + info[i].url_diff + "</a></td>").appendTo(str);
 
                     // Comment
                     $("<td width='20%'>" + info[i].comment + "</td>").appendTo(str);
