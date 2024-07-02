@@ -1,7 +1,5 @@
 ﻿{
-"name" : "PDB式難易度表作成例",
-"symbol" : "P例",
-"data_url" : "./score.json",
-"level_order" : [1,2,3,4,5,6,7,8,9,12,50,55,99,"!i"]
-
+"name" : "1mi差分",
+"symbol" : "MI",
+"data_url" : "https://script.googleusercontent.com/macros/echo?user_content_key=jWHHrUN9F6MXfiE5cAlx5QkRBn1oj-0cftbJZ1pAqT0EHvuBuZ9KqpxI2v5fXctg0qHgmWGjWHj63YV55jCgAseTmV5PtcpVOJmA1Yb3SEsKFZqtv3DaNYcMrmhZHmUMWojr9NvTBuBLhyHCd5hHa50a6UHwGOhIzL_Ed_gilgi8q1f9RfX3NcR51dw3vcYRcrohhipbUFrrgjeOfaBtVr2puzLqdE4Q-6s9zweSrzuRXNbfCy_yIYaqu5thKJf9FS9ksmWzFcEda867tFPU6ObS4v4Zifb4&lib=MZGF-rpGWT28d9kh49MlyleOKhrMb7MMj"
 }
