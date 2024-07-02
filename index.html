@@ -87,7 +87,9 @@
                     $("<td width='30%'>" + info[i].artist + "</td>").appendTo(str);
 
                     // Url
-                    $("<td width='15%'>" + info[i].url_diff + "</td>").appendTo(str);
+                    $("<td width='15%'>" + 
+                        "<a href="&dl=1" download=" ">"
+                      + info[i].url_diff + "</td>").appendTo(str);
 
                     // Comment
                     $("<td width='15%'>" + info[i].comment + "</td>").appendTo(str);
