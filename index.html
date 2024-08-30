@@ -31,7 +31,6 @@
             <p>mi-4 = ~sl9</p>
             <p>mi-3~-1 = sl10~12</p>
             <p>mi0~12 = st0~12</p>
-            <p>mi? よくわからないもの</p>
         </div>
 
 
@@ -79,16 +78,16 @@
 
                     // Title
                     $("<td width='25%'>" +
-                        "<a href='http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=" + info[
+                        "<a href='https://mocha-repository.info/song.php?sha256=" + info[
                             i]
-                        .md5 + "' target='_blank'>" + info[i].title + "</a></td>").appendTo(str);
+                        .sha256 + "' target='_blank'>" + info[i].title + "</a></td>").appendTo(str);
 
                     // Artist
                     $("<td width='20%'>" + info[i].artist + "</td>").appendTo(str);
 
                     // URL
                     $("<td width='20%'>" + 
-                      "<a download href= " +info[i].url_diff + ">" + info[i].url_diff + "</a></td>").appendTo(str);
+                      "<a download href= " +info[i].url_diff + "' target='_blank'>" + "SABUN_DL" + "</a></td>").appendTo(str);
 
                     // Comment
                     $("<td width='20%'>" + info[i].comment + "</td>").appendTo(str);
