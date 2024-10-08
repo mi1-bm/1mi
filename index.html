@@ -77,11 +77,11 @@
                     // Level
                     $("<td width='5%'>" + mark + x + "</td>").appendTo(str);
 
-                    // Title (Mocha-Repository)
+                    // Title (LR2IR)
                     $("<td width='25%'>" +
-                        "<a href='https://mocha-repository.info/song.php?sha256=" + info[
+                        "<a href='http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=" + info[
                             i]
-                        .sha256 + "' target='_blank'>" + info[i].title + "</a></td>").appendTo(str);
+                        .md5 + "' target='_blank'>" + info[i].title + "</a></td>").appendTo(str);
 
                     // Artist
                     $("<td width='20%'>" + info[i].artist + "</td>").appendTo(str);
