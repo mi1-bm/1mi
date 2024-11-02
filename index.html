@@ -55,7 +55,7 @@
                 var obj = $("#table_int");
 
                 obj.html("");
-                $("<thead class='table-dark'><tr><th>Level</th><th>Title</th><th>Artist</th><th>URL</th><th>Comment</th></tr></thead><tbody>")
+                $("<thead class='table-dark'><tr><th>LEVEL</th><th>TITLE</th><th>ARTIST</th><th>URL</th><th>TOTAL/NOTES</th><th>COMMENT</th></tr></thead><tbody>")
                     .appendTo(obj);
                 var obj_sep = null;
                 for (var i = 0; i < info.length; i++) {
@@ -86,11 +86,14 @@
                     $("<td width='20%'>" + info[i].artist + "</td>").appendTo(str);
 
                     // URL
-                    $("<td width='20%'>" + 
-                      "<a download href= " +info[i].url_diff + ">" + info[i].url_diff + "</a></td>").appendTo(str);
+                    $("<td width='5%'>" + 
+                      "<a download href= " +info[i].url_diff + ">" + 差分DL + "</a></td>").appendTo(str);
+
+                    // t/n
+                    $("<td width='10%'>" + info[i].total_notes + "</td>").appendTo(str);
 
                     // Comment
-                    $("<td width='20%'>" + info[i].comment + "</td>").appendTo(str);
+                    $("<td width='25%'>" + info[i].comment + "</td>").appendTo(str);
                     str.appendTo(obj);
                     count++;
 
