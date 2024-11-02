@@ -77,7 +77,7 @@
                     $("<td width='5%'>" + mark + x + "</td>").appendTo(str);
 
                     // Title (LR2IR)
-                    $("<td width='25%'>" +
+                    $("<td width='20%'>" +
                         "<a href='http://www.dream-pro.info/~lavalse/LR2IR/search.cgi?mode=ranking&bmsmd5=" + info[
                             i]
                         .md5 + "' target='_blank'>" + info[i].title + "</a></td>").appendTo(str);
@@ -86,11 +86,11 @@
                     $("<td width='15%'>" + info[i].artist + "</td>").appendTo(str);
 
                     // URL
-                    $("<td width='5%' style='text-align:center'>" + 
+                    $("<td width='10%'>" + 
                       "<a download href= " +info[i].url_diff + ">" + "差分DL" + "</a></td>").appendTo(str);
 
                     // t/n
-                    $("<td width='15%' style='text-align:center'>" + info[i].total_notes + "</td>").appendTo(str);
+                    $("<td width='15%'>" + info[i].total_notes + "</td>").appendTo(str);
 
                     // Comment
                     $("<td width='25%'>" + info[i].comment + "</td>").appendTo(str);
