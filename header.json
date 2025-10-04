@@ -1,5 +1,40 @@
 ﻿{
 "name" : "1mi差分",
 "symbol" : "mi",
-"data_url" : "https://script.google.com/macros/s/AKfycbyha-n3CDmVOSgd3DWP_iK-TKPKh6daPuYDPAx9Zb1z80WzSxwC2WZI6RL0AFJ-BkA/exec"
+"data_url" : "https://script.google.com/macros/s/AKfycbyha-n3CDmVOSgd3DWP_iK-TKPKh6daPuYDPAx9Zb1z80WzSxwC2WZI6RL0AFJ-BkA/exec",
+"course":[ 
+  [
+    { 
+      "name": "1mi差分 0等級",
+      "constraint": ["grade_mirror", "gauge_lr2"],
+      "md5":["1bf274e3eb2d9f8f65b9f3a379a086e6","488c9824e1a7377bb1f1cb1f47080d18","3c14a64a56cfb6e852499c1a8228bea5","18ddabe781b21ec922cff5fd7d0b677c"]
+    },
+    { 
+      "name": "1mi差分 1等級",
+      "constraint": ["grade_mirror", "gauge_lr2"],
+      "md5":["7c01e35447801725299953c6ed0ae93b","3438bb149c66a134079fbd5780d9e9dc","33d10ac0be62c99f3104c8b387d6c17e","428a240d86051585adddcd22db0ea479"]
+    },
+    { 
+      "name": "1mi差分 2等級",
+      "constraint": ["grade_mirror", "gauge_lr2"],
+      "md5":["ef50a62188e21374d19ae73b8efb866e","036b34869ca7f72314030b260c6cab8e","d6c098a558d8330935b9dc3b29701aea","84d8576fba284231a03b807b4c041ef2"]
+    },
+    { 
+      "name": "1mi差分 3等級",
+      "constraint": ["grade_mirror", "gauge_lr2"],
+      "md5":["836cefea637bcafc5eb1a245b9468959","e9cac63eb6501b0d2355a1cd38f742e9","1574b7799a11691177dfec9629bad85e","c3dcfb319494b245310bfc01dc78824e"]
+    },
+    { 
+      "name": "1mi差分 4等級",
+      "constraint": ["grade_mirror", "gauge_lr2"],
+      "md5":["1088fa714225c6d1c779f9c1f45ea78a","642c14dc4b4d5ee0956f27f5f8de1e27","1a80305814f305c3755e98c9e9606fcc","1d206de864f436cbd5da75c9628d1f4d"]
+    },
+    { 
+      "name": "1mi差分 5等級",
+      "constraint": ["grade_mirror", "gauge_lr2"],
+      "md5":["8ec3e6decff42fd308471a7daec51cc2","16931112b1f7ba9127f8fa4a80e1f37c","ab647a8d4403342e015ca68494925727","2e1a20921dc988607c761f4f15dd60a5"]
+    },
+  ]
+ ]
 }
+
