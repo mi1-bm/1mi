@@ -33,8 +33,9 @@
       "name": "1mi差分 5等級",
       "constraint": ["grade_mirror", "gauge_lr2"],
       "md5":["8ec3e6decff42fd308471a7daec51cc2","16931112b1f7ba9127f8fa4a80e1f37c","ab647a8d4403342e015ca68494925727","2e1a20921dc988607c761f4f15dd60a5"]
-    },
+    }
   ]
  ]
 }
+
 
