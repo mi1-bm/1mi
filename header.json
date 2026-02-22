@@ -1,8 +1,18 @@
 ﻿{
 "name" : "いちみ差分",
 "symbol" : "mi",
-"data_url" : "https://script.google.com/macros/s/AKfycbyha-n3CDmVOSgd3DWP_iK-TKPKh6daPuYDPAx9Zb1z80WzSxwC2WZI6RL0AFJ-BkA/exec"
+"data_url" : "https://script.google.com/macros/s/AKfycbyha-n3CDmVOSgd3DWP_iK-TKPKh6daPuYDPAx9Zb1z80WzSxwC2WZI6RL0AFJ-BkA/exec",
+"course":[ 
+    [
+      { 
+        "name": "発狂皆伝1mi差分Version",
+        "constraint": ["grade_mirror", "gauge_lr2"],
+        "md5":["642c14dc4b4d5ee0956f27f5f8de1e27","1d206de864f436cbd5da75c9628d1f4d","1a80305814f305c3755e98c9e9606fcc","fd99851584e4b6c09ac5698da68549d9"]
+      }
+    ]
+  ]
 }
+
 
 
 
